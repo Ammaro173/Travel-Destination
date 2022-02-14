@@ -1,11 +1,25 @@
 import './App.css';
+// import { BrowserRouter } from 'react-router-dom';
 
 import Home from './components/home/Home';
+import TourDetails from './components/TourDetails/TourDetails';
+import data from './data/db.json';
+import { Routes, Route, Link } from 'react-router-dom';
+
+const PageNotFound = () => (
+  <div>
+    404! - <Link to='/'>Home</Link>
+  </div>
+);
 
 function App() {
   return (
     <>
-      <Home />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/city/:id' element={<TourDetails data={data} />} />
+        <Route component={PageNotFound} />
+      </Routes>
     </>
   );
 }

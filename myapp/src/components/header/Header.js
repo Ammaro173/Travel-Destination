@@ -1,4 +1,10 @@
+import NavBar from '../Navbar/Navbar';
+
 function Headers() {
-  return <h1>Travel App</h1>;
+  return (
+    <>
+      <NavBar />
+    </>
+  );
 }
 export default Headers;
