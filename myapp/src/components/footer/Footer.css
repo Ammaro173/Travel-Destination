@@ -1,4 +1,16 @@
-.rights {
-  background-color: lightgrey;
-  color: greenyellow;
+.rights,
+.fb {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(31, 45, 248, 0.212);
+  color: rgb(179, 3, 3);
 }
+/* .fb {
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey;
+  color: rgb(179, 3, 3);
+} */

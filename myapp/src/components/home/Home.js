@@ -1,21 +1,19 @@
-import Footer from "../footer/Footer";
-import Header from "../header/Header";
-import Tours from '../tours/Tours'
-import travelData from "../../data/db.json"
+import Footer from '../footer/Footer';
+import Header from '../header/Header';
+import Tours from '../tours/Tours';
+import data from '../../data/db.json';
 
-function Home (){
-return( 
-    <> 
-    <div>
-<Header/>
-    </div>
+function Home() {
+  return (
+    <>
+      <Header />
 
-    <Tours data={travelData}/>
-    
-    <div>
-        <Footer/>
-    </div>
+      <Tours data={data} />
+
+      <div>
+        <Footer />
+      </div>
     </>
-)
+  );
 }
 export default Home;

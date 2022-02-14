@@ -1,0 +1,16 @@
+.navBar {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  border-style: inset;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.appName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
