@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import '/home/ammaro/Travel-Destination/myapp/src/components/Navbar/Navbar.css';
+import './Navbar.css';
 
 function NavBar() {
   return (
