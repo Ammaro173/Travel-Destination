@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import '/home/ammaro/Travel-Destination/myapp/src/components/tours/tour/Tour.css';
+import '../tour/Tour.css';
 
 function Tour(props, elee) {
   return (
